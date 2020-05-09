@@ -3,17 +3,17 @@ using namespace std;
 int main()
 {
 int x, y, maior;
-cout << "Digite o numero 1: ";
+cout << "Enter the number 1: ";
 cin >> x;
-cout << "Digite o numero 2: ";
+cout << "Enter the number 2: ";
 cin >> y;
 
 if(x%2==0)
 {
-	cout << "É par";
+	cout << "even";
 }
 else{
-	cout << "É impar";
+	cout << "odd";
 }
 return 0;
 system("PAUSE");
